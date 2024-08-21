@@ -17,12 +17,12 @@ export const ICONS = [
   },
   {
     id: 'AUSO',
-    name: 'Ausol',
+    name: 'Autopistas del Sol',
     type: 'acciones',
   },
   {
     id: 'BBAR',
-    name: 'Banco Francés',
+    name: 'BBVA Argentina',
     type: 'acciones',
   },
   {
@@ -33,11 +33,6 @@ export const ICONS = [
   {
     id: 'BMA',
     name: 'Banco Macro',
-    type: 'acciones',
-  },
-  {
-    id: 'BYMA',
-    name: 'Bolsas y Mercados Argentinos',
     type: 'acciones',
   },
   {
@@ -57,12 +52,12 @@ export const ICONS = [
   },
   {
     id: 'CADO',
-    name: 'Cablevisión',
+    name: 'Carlos Casado',
     type: 'acciones',
   },
   {
     id: 'CAPU',
-    name: 'Caputo',
+    name: 'Caputo S.A.',
     type: 'acciones',
   },
   {
@@ -72,7 +67,7 @@ export const ICONS = [
   },
   {
     id: 'CECO2',
-    name: 'Celulosa',
+    name: 'Endesa Costanera',
     type: 'acciones',
   },
   {
@@ -87,12 +82,12 @@ export const ICONS = [
   },
   {
     id: 'CGPA2',
-    name: 'Cresud',
+    name: 'Camuzzi Gas Pampeana',
     type: 'acciones',
   },
   {
     id: 'COME',
-    name: 'Come',
+    name: 'Sociedad Comercial del Plata',
     type: 'acciones',
   },
   {
@@ -107,12 +102,12 @@ export const ICONS = [
   },
   {
     id: 'CVH',
-    name: 'Cablevisión Holding',
+    name: 'Cablevisión Holding S.A.',
     type: 'acciones',
   },
   {
     id: 'DGCE',
-    name: 'Distribuidora de Gas Cuyana',
+    name: 'Distribuidora de Gas Del Centro',
     type: 'acciones',
   },
   {
@@ -132,7 +127,7 @@ export const ICONS = [
   },
   {
     id: 'EDSH',
-    name: 'Edesur',
+    name: 'Edesa Holding S.A.',
     type: 'acciones',
   },
   {
@@ -147,17 +142,17 @@ export const ICONS = [
   },
   {
     id: 'GAMI',
-    name: 'Gamenet',
+    name: 'B-Gaming S.A.',
     type: 'acciones',
   },
   {
     id: 'GBAN',
-    name: ' ',
+    name: 'Naturgy BAN',
     type: 'acciones',
   },
   {
     id: 'GCDI',
-    name: '',
+    name: 'GCDI S.A.',
     type: 'acciones',
   },
   {
@@ -167,7 +162,7 @@ export const ICONS = [
   },
   {
     id: 'GGAL',
-    name: 'Grupo Financiero Galicia',
+    name: 'Grupo Financiero Galicia S.A.',
     type: 'acciones',
   },
   {
@@ -177,22 +172,22 @@ export const ICONS = [
   },
   {
     id: 'HARG',
-    name: 'Harcourt',
+    name: 'Holcim Argentina',
     type: 'acciones',
   },
   {
     id: 'HAVA',
-    name: 'Havanna',
+    name: 'Havanna Holding S.A.',
     type: 'acciones',
   },
   {
     id: 'INTR',
-    name: '',
+    name: 'Compañía Introductora de Buenos Aires',
     type: 'acciones',
   },
   {
     id: 'IRSA',
-    name: 'IRSA',
+    name: 'Inversiones y Representaciones Sociedad Anónima',
     type: 'acciones',
   },
   {
@@ -202,7 +197,7 @@ export const ICONS = [
   },
   {
     id: 'LOMA',
-    name: 'Loma Negra',
+    name: 'Loma Negra Compañía Industrial Argentina S.A.',
     type: 'acciones',
   },
   {
@@ -217,7 +212,7 @@ export const ICONS = [
   },
   {
     id: 'MOLA',
-    name: 'Molinos Río de la Plata',
+    name: 'Molinos Agro S.A.',
     type: 'acciones',
   },
   {
@@ -227,12 +222,12 @@ export const ICONS = [
   },
   {
     id: 'MORI',
-    name: 'Morixe',
+    name: 'Morixe Hermanos',
     type: 'acciones',
   },
   {
     id: 'MTR',
-    name: 'Metrogas',
+    name: 'Matba Rofex S.A.',
     type: 'acciones',
   },
   {
@@ -242,17 +237,17 @@ export const ICONS = [
   },
   {
     id: 'PATA',
-    name: 'Patagonia Gold',
+    name: 'Importadora y Exportadora de la Patagonia',
     type: 'acciones',
   },
   {
     id: 'RICH',
-    name: 'Richmond',
+    name: 'Laboratorios Richmond S.A.C.I.F.',
     type: 'acciones',
   },
   {
     id: 'SAMI',
-    name: 'Sami',
+    name: 'San Miguel',
     type: 'acciones',
   },
   {
@@ -262,17 +257,17 @@ export const ICONS = [
   },
   {
     id: 'TECO2',
-    name: 'Tecnogas',
+    name: 'Telecom Argentina',
     type: 'acciones',
   },
   {
     id: 'TGNO4',
-    name: 'Transener',
+    name: 'Transportadora Gas del Norte',
     type: 'acciones',
   },
   {
     id: 'TGSU2',
-    name: 'Transportadora de Gas del Sur',
+    name: 'Transportadora Gas del Sur',
     type: 'acciones',
   },
   {
@@ -282,12 +277,12 @@ export const ICONS = [
   },
   {
     id: 'TXAR',
-    name: 'Ternium',
+    name: 'Ternium Argentina',
     type: 'acciones',
   },
   {
     id: 'VALO',
-    name: 'Valores',
+    name: 'Banco de Valores S.A.',
     type: 'acciones',
   },
   {
