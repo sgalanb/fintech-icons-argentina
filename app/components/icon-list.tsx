@@ -1,7 +1,7 @@
 'use client'
 
 import { Button } from '@/app/components/ui/button'
-import { Card, CardContent, CardHeader } from '@/app/components/ui/card'
+import { Card, CardContent } from '@/app/components/ui/card'
 import {
   Dialog,
   DialogContent,
@@ -93,17 +93,15 @@ export default function IconList() {
 const IconTrigger = ({ stock }: { stock: IconType }) => (
   <Card
     key={stock.id}
-    className="h-[9.75rem] w-full cursor-pointer transition-opacity animate-out hover:opacity-80 dark:bg-zinc-800"
+    className="flex h-[9.75rem] w-full cursor-pointer items-center justify-center transition-opacity animate-out hover:opacity-80 dark:bg-zinc-800"
   >
-    <CardHeader className="px-3">
+    <CardContent className="flex flex-col gap-3 px-3 pt-6">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={`/icons/${stock.type}/${stock.id}.svg`}
         className="h-10 w-10 self-center rounded"
         alt=""
       />
-    </CardHeader>
-    <CardContent className="px-3">
       <div className="flex h-[2.75rem] flex-col items-center justify-center px-3">
         <span className="self-center text-center text-base font-semibold">
           {stock.type === 'acciones' ? stock.id : stock.name}
