@@ -22,13 +22,10 @@ import {
   SelectValue,
 } from '@/app/components/ui/select'
 import { ICONS, IconType } from '@/app/constants'
-import useMediaQuery from '@/app/hooks'
 import { Check, Copy, Download } from 'lucide-react'
 import { useState } from 'react'
 
 export default function IconList() {
-  const isDesktop = useMediaQuery('(min-width: 768px)')
-
   const [search, setSearch] = useState<string>('')
   const [selectedType, setSelectedType] = useState<string>('all')
 
@@ -66,25 +63,26 @@ export default function IconList() {
           )
           .map((stock) => (
             <>
-              {isDesktop ? (
+              <div className="hidden md:block">
                 <Dialog>
-                  <DialogTrigger>
+                  <DialogTrigger className="w-full">
                     <IconTrigger stock={stock} />
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[425px]">
-                    <IconContent stock={stock} isDesktop={isDesktop} />
+                    <IconContent stock={stock} />
                   </DialogContent>
                 </Dialog>
-              ) : (
+              </div>
+              <div className="block md:hidden">
                 <Drawer>
-                  <DrawerTrigger>
+                  <DrawerTrigger className="w-full">
                     <IconTrigger stock={stock} />
                   </DrawerTrigger>
                   <DrawerContent>
-                    <IconContent stock={stock} isDesktop={isDesktop} />
+                    <IconContent stock={stock} />
                   </DrawerContent>
                 </Drawer>
-              )}
+              </div>
             </>
           ))}
       </div>
@@ -95,7 +93,7 @@ export default function IconList() {
 const IconTrigger = ({ stock }: { stock: IconType }) => (
   <Card
     key={stock.id}
-    className="h-[9.75rem] cursor-pointer transition-opacity animate-out hover:opacity-80 dark:bg-zinc-800"
+    className="h-[9.75rem] w-full cursor-pointer transition-opacity animate-out hover:opacity-80 dark:bg-zinc-800"
   >
     <CardHeader className="px-3">
       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -118,20 +116,12 @@ const IconTrigger = ({ stock }: { stock: IconType }) => (
   </Card>
 )
 
-function IconContent({
-  stock,
-  isDesktop,
-}: {
-  stock: IconType
-  isDesktop: boolean
-}) {
+function IconContent({ stock }: { stock: IconType }) {
   const [isCopied, setIsCopied] = useState(false)
 
   return (
     <>
-      <div
-        className={`${isDesktop ? '' : 'p-6'} flex w-full flex-col items-center justify-center gap-6`}
-      >
+      <div className="flex w-full flex-col items-center justify-center gap-6 p-6 md:p-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={`/icons/${stock.type}/${stock.id}.svg`}
@@ -146,9 +136,17 @@ function IconContent({
             </span>
           )}
         </div>
-        <div
-          className={`${isDesktop ? 'flex-row' : 'flex-col'} flex w-full items-center justify-center gap-3`}
-        >
+        <div className="flex w-full flex-col items-center justify-center gap-3 md:flex-row">
+          <Button
+            variant="secondary"
+            className="w-full"
+            onClick={() => {
+              downloadSvg(`/icons/${stock.type}/${stock.id}.svg`)
+            }}
+          >
+            <Download size={16} className="mr-2" />
+            Descargar
+          </Button>
           <Button
             className="w-full"
             onClick={() => {
@@ -165,16 +163,6 @@ function IconContent({
               <Copy size={16} className="mr-2" />
             )}
             Copiar SVG
-          </Button>
-          <Button
-            variant="secondary"
-            className="w-full"
-            onClick={() => {
-              downloadSvg(`/icons/${stock.type}/${stock.id}.svg`)
-            }}
-          >
-            <Download size={16} className="mr-2" />
-            Descargar
           </Button>
         </div>
       </div>
