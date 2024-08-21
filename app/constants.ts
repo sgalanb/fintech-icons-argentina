@@ -1,7 +1,7 @@
 export type IconType = {
   id: string
   name: string
-  type: 'acciones' | 'gerentes-fci'
+  type: 'acciones' | 'cedears' | 'gerentes-fci' | 'bancos-apps' | 'monedas'
 }
 
 export const ICONS = [
@@ -349,5 +349,205 @@ export const ICONS = [
     id: 'toronto-trust',
     name: 'Toronto Trust',
     type: 'gerentes-fci',
+  },
+  {
+    id: 'AAL',
+    name: 'American Airlines',
+    type: 'cedears',
+  },
+  {
+    id: 'AAP',
+    name: 'Advance Auto Parts',
+    type: 'cedears',
+  },
+  {
+    id: 'AAPL',
+    name: 'Apple',
+    type: 'cedears',
+  },
+  {
+    id: 'ABBV',
+    name: 'AbbVie',
+    type: 'cedears',
+  },
+  {
+    id: 'ABEV',
+    name: 'Ambev',
+    type: 'cedears',
+  },
+  {
+    id: 'ABNB',
+    name: 'Airbnb',
+    type: 'cedears',
+  },
+  {
+    id: 'ABT',
+    name: 'Abbott Laboratories',
+    type: 'cedears',
+  },
+  {
+    id: 'ACN',
+    name: 'Accenture',
+    type: 'cedears',
+  },
+  {
+    id: 'ADBE',
+    name: 'Adobe Systems',
+    type: 'cedears',
+  },
+  {
+    id: 'ADGO',
+    name: 'Adecoagro',
+    type: 'cedears',
+  },
+  {
+    id: 'ADI',
+    name: 'Analog Devices',
+    type: 'cedears',
+  },
+  {
+    id: 'ADP',
+    name: 'Automatic Data Processing',
+    type: 'cedears',
+  },
+  {
+    id: 'ADS',
+    name: 'Adidas',
+    type: 'cedears',
+  },
+  {
+    id: 'AEG',
+    name: 'Aegon',
+    type: 'cedears',
+  },
+  {
+    id: 'AEM',
+    name: 'Agnico Eagle Mines',
+    type: 'cedears',
+  },
+  {
+    id: 'AIG',
+    name: 'American International Group',
+    type: 'cedears',
+  },
+  {
+    id: 'AKO.B',
+    name: 'Embotelladora Andina',
+    type: 'cedears',
+  },
+  {
+    id: 'AMAT',
+    name: 'Applied Materials',
+    type: 'cedears',
+  },
+  {
+    id: 'AMD',
+    name: 'Advanced Micro Devices',
+    type: 'cedears',
+  },
+  {
+    id: 'AMGN',
+    name: 'Amgen',
+    type: 'cedears',
+  },
+  {
+    id: 'AMX',
+    name: 'America Movil',
+    type: 'cedears',
+  },
+  {
+    id: 'AMZN',
+    name: 'Amazon',
+    type: 'cedears',
+  },
+  {
+    id: 'ANF',
+    name: 'Abercrombie & Fitch',
+    type: 'cedears',
+  },
+  {
+    id: 'ARCO',
+    name: 'Arcos Dorados Holdings',
+    type: 'cedears',
+  },
+  {
+    id: 'ARKK',
+    name: 'Ark Innovation ETF',
+    type: 'cedears',
+  },
+  {
+    id: 'ASR',
+    name: 'Grupo Aeroportuario del Sureste',
+    type: 'cedears',
+  },
+  {
+    id: 'AVGO',
+    name: 'Broadcom',
+    type: 'cedears',
+  },
+  {
+    id: 'AVY',
+    name: 'Avery Dennison',
+    type: 'cedears',
+  },
+  {
+    id: 'AXP',
+    name: 'American Express',
+    type: 'cedears',
+  },
+  {
+    id: 'AZN',
+    name: 'AstraZeneca',
+    type: 'cedears',
+  },
+  {
+    id: 'BA.C',
+    name: 'Bank of America',
+    type: 'cedears',
+  },
+  {
+    id: 'BA',
+    name: 'Boeing',
+    type: 'cedears',
+  },
+  {
+    id: 'BABA',
+    name: 'Alibaba Group',
+    type: 'cedears',
+  },
+  {
+    id: 'BAK',
+    name: 'Braskem',
+    type: 'cedears',
+  },
+  {
+    id: 'BAYN',
+    name: 'Bayer',
+    type: 'cedears',
+  },
+  {
+    id: 'BB',
+    name: 'Blackberry',
+    type: 'cedears',
+  },
+  {
+    id: 'BBAS3',
+    name: 'Banco do Brasil',
+    type: 'cedears',
+  },
+  {
+    id: 'BBD',
+    name: 'Banco Bradesco',
+    type: 'cedears',
+  },
+  {
+    id: 'BBV',
+    name: 'BBVA',
+    type: 'cedears',
+  },
+  {
+    id: 'MCD',
+    name: 'McDonalds',
+    type: 'cedears',
   },
 ] as IconType[]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+  <rect x="0" y="0" width="18" height="18" style="fill: #fafafa;"/>
+  <g>
+    <path d="M13.04,9.19l-.85-2.61-.85,2.61h1.7Z" style="fill: #0079c1;"/>
+    <path d="M11.03,10.17l-.29.9h-1.12l1.91-5.88h1.33l-.55-1.7-8.31,2.7,2.7,8.31,7.3-2.37-.64-1.96h-2.34Z" style="fill: #0079c1;"/>
+  </g>
+</svg>

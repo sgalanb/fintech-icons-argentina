@@ -46,7 +46,8 @@ export default function IconList() {
             <SelectGroup>
               <SelectItem value="all">Todos los iconos</SelectItem>
               <SelectItem value="acciones">Acciones</SelectItem>
-              <SelectItem value="gerentes-fci">FCI</SelectItem>
+              <SelectItem value="cedears">CEDEARs</SelectItem>
+              <SelectItem value="gerentes-fci">Gerentes de FCI</SelectItem>
             </SelectGroup>
           </SelectContent>
         </Select>
@@ -61,6 +62,7 @@ export default function IconList() {
           .filter((stock) =>
             selectedType === 'all' ? true : stock.type === selectedType
           )
+          .sort((a, b) => a.name.localeCompare(b.name))
           .map((stock) => (
             <>
               <div className="hidden md:block">
@@ -103,11 +105,19 @@ const IconTrigger = ({ stock }: { stock: IconType }) => (
         alt=""
       />
       <div className="flex h-[2.75rem] flex-col items-center justify-center px-3">
-        <span className="self-center text-center text-base font-semibold">
-          {stock.type === 'acciones' ? stock.id : stock.name}
+        <span className="line-clamp-1 self-center text-center text-base font-semibold">
+          {stock.type === 'acciones' ||
+          stock.type === 'cedears' ||
+          stock.type === 'monedas'
+            ? stock.id
+            : stock.name}
         </span>
         <span className="line-clamp-1 text-center text-sm text-gray-500">
-          {stock.type === 'acciones' ? stock.name : ''}
+          {stock.type === 'acciones' ||
+          stock.type === 'cedears' ||
+          stock.type === 'monedas'
+            ? stock.name
+            : ''}
         </span>
       </div>
     </CardContent>
@@ -128,9 +138,20 @@ function IconContent({ stock }: { stock: IconType }) {
         />
         <div className="flex w-full flex-col items-start justify-center">
           <span className="text-left text-xl font-semibold">{stock.name}</span>
-          {stock.type === 'acciones' && (
+          {stock.type === 'acciones' ||
+          stock.type === 'cedears' ||
+          stock.type === 'monedas' ? (
             <span className="line-clamp-1 text-left text-lg text-gray-500">
-              {stock.id}
+              {stock.id} -{' '}
+              {stock.type === 'acciones'
+                ? 'Acción'
+                : stock.type === 'cedears'
+                  ? 'CEDEAR'
+                  : 'Moneda'}
+            </span>
+          ) : (
+            <span className="line-clamp-1 text-left text-lg text-gray-500">
+              {stock.type === 'gerentes-fci' ? 'Gerente de FCI' : 'Banco/App'}
             </span>
           )}
         </div>
