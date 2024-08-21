@@ -1,10 +1,9 @@
-import { Input } from '@/app/components/ui/input'
-
 export default function Header() {
   return (
-    <div className="flex w-full items-center justify-between gap-3 p-3">
-      <h1 className="h-16">Fintech Brands Argentina</h1>
-      <Input />
+    <div className="flex w-full items-center justify-between gap-3 px-3 py-3 md:px-0 md:py-6">
+      <h1 className="text-2xl font-bold tracking-tighter">
+        Fintech Icons Argentina
+      </h1>
     </div>
   )
 }

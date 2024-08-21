@@ -18,6 +18,10 @@ const config = {
       },
     },
     extend: {
+      screens: {
+        xs: '480px',
+        xxs: '320px',
+      },
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
