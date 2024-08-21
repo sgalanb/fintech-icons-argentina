@@ -22,8 +22,9 @@ import {
   SelectValue,
 } from '@/app/components/ui/select'
 import { ICONS, IconType } from '@/app/constants'
+import useMediaQuery from '@/app/hooks'
 import { Check, Copy, Download } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 export default function IconList() {
   const isDesktop = useMediaQuery('(min-width: 768px)')
@@ -54,7 +55,7 @@ export default function IconList() {
         </Select>
       </div>
 
-      <div className="xxs:grid-cols-2 xs:grid-cols-3 grid w-full grid-cols-1 gap-3 sm:grid-cols-4 md:grid-cols-5">
+      <div className="grid w-full grid-cols-1 gap-3 xxs:grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5">
         {ICONS.filter(
           (stock) =>
             stock.name.toLowerCase().includes(search.toLowerCase()) ||
@@ -94,7 +95,7 @@ export default function IconList() {
 const IconTrigger = ({ stock }: { stock: IconType }) => (
   <Card
     key={stock.id}
-    className="animate-out h-[9.75rem] cursor-pointer transition-opacity hover:opacity-80 dark:bg-zinc-800"
+    className="h-[9.75rem] cursor-pointer transition-opacity animate-out hover:opacity-80 dark:bg-zinc-800"
   >
     <CardHeader className="px-3">
       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -179,25 +180,6 @@ function IconContent({
       </div>
     </>
   )
-}
-
-function useMediaQuery(query: string): boolean {
-  const mediaQueryList = window.matchMedia(query)
-  const [matches, setMatches] = useState(mediaQueryList.matches)
-
-  useEffect(() => {
-    const handleMediaQueryChange = (event: MediaQueryListEvent) => {
-      setMatches(event.matches)
-    }
-
-    mediaQueryList.addEventListener('change', handleMediaQueryChange)
-
-    return () => {
-      mediaQueryList.removeEventListener('change', handleMediaQueryChange)
-    }
-  }, [mediaQueryList])
-
-  return matches
 }
 
 const copyToClipboard = async (svgUrl: string) => {
