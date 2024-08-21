@@ -550,4 +550,14 @@ export const ICONS = [
     name: 'McDonalds',
     type: 'cedears',
   },
+  {
+    id: 'ARS',
+    name: 'Peso Argentino',
+    type: 'monedas',
+  },
+  {
+    id: 'USD',
+    name: 'Dólar Estadounidense',
+    type: 'monedas',
+  },
 ] as IconType[]
