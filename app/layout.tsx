@@ -19,7 +19,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: 'Fintech Icons Argentina',
   description:
-    'Colección de +400 iconos en formato SVG relacionados con el mundo fintech en Argentina. Acciones, CEDEARs, FCI, Bancos, Billeteras Digitales, ALyCs y más.',
+    'Colección de +400 iconos en formato SVG relacionados con el mundo fintech de Argentina. Acciones, CEDEARs, FCI, Bancos, Billeteras Digitales, ALyCs y más.',
 }
 
 export default function RootLayout({
