@@ -546,6 +546,56 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'BCS',
+    name: 'Barclays',
+    type: 'cedears',
+  },
+  {
+    id: 'BHP',
+    name: 'BHP Billiton',
+    type: 'cedears',
+  },
+  {
+    id: 'BIDU',
+    name: 'Baidu',
+    type: 'cedears',
+  },
+  {
+    id: 'BIIB',
+    name: 'Biogen',
+    type: 'cedears',
+  },
+  {
+    id: 'BIOX',
+    name: 'Bioceres Crop Solutions',
+    type: 'cedears',
+  },
+  {
+    id: 'BITF',
+    name: 'Bitfarms',
+    type: 'cedears',
+  },
+  {
+    id: 'BK',
+    name: 'Bank of New York Mellon',
+    type: 'cedears',
+  },
+  {
+    id: 'BKNG',
+    name: 'Booking Holdings',
+    type: 'cedears',
+  },
+  {
+    id: 'BMY',
+    name: 'Bristol-Myers Squibb',
+    type: 'cedears',
+  },
+  {
+    id: 'BNG',
+    name: 'Bunge Limited',
+    type: 'cedears',
+  },
+  {
     id: 'MCD',
     name: 'McDonalds',
     type: 'cedears',
