@@ -596,8 +596,1148 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'BP',
+    name: 'British Petroleum',
+    type: 'cedears',
+  },
+  {
+    id: 'BRFS',
+    name: 'BRF S.A.',
+    type: 'cedears',
+  },
+  {
+    id: 'BRKB',
+    name: 'Berkshire Hathaway',
+    type: 'cedears',
+  },
+  {
+    id: 'BSBR',
+    name: 'Banco Santander Brasil',
+    type: 'cedears',
+  },
+  {
+    id: 'C.D',
+    name: 'Citigroup',
+    type: 'cedears',
+  },
+  {
+    id: 'CAAP',
+    name: 'Corporación América Airports',
+    type: 'cedears',
+  },
+  {
+    id: 'CAH',
+    name: 'Cardinal Health',
+    type: 'cedears',
+  },
+  {
+    id: 'CAR',
+    name: 'Avis Budget Group',
+    type: 'cedears',
+  },
+  {
+    id: 'CAT',
+    name: 'Caterpillar',
+    type: 'cedears',
+  },
+  {
+    id: 'CCL',
+    name: 'Carnival',
+    type: 'cedears',
+  },
+  {
+    id: 'CDE',
+    name: 'Coeur Mining',
+    type: 'cedears',
+  },
+  {
+    id: 'CL',
+    name: 'Colgate-Palmolive',
+    type: 'cedears',
+  },
+  {
+    id: 'COIN',
+    name: 'Coinbase',
+    type: 'cedears',
+  },
+  {
+    id: 'COST',
+    name: 'Costco Wholesale',
+    type: 'cedears',
+  },
+  {
+    id: 'CRM',
+    name: 'Salesforce.com',
+    type: 'cedears',
+  },
+  {
+    id: 'CSCO',
+    name: 'Cisco Systems',
+    type: 'cedears',
+  },
+  {
+    id: 'CVS',
+    name: 'CVS Health',
+    type: 'cedears',
+  },
+  {
+    id: 'CVX',
+    name: 'Chevron',
+    type: 'cedears',
+  },
+  {
+    id: 'CX',
+    name: 'Cemex',
+    type: 'cedears',
+  },
+  {
+    id: 'DAL',
+    name: 'Delta Air Lines',
+    type: 'cedears',
+  },
+  {
+    id: 'DD',
+    name: 'Dupont De Nemours',
+    type: 'cedears',
+  },
+  {
+    id: 'DE',
+    name: 'Deere',
+    type: 'cedears',
+  },
+  {
+    id: 'DEO',
+    name: 'Diageo',
+    type: 'cedears',
+  },
+  {
+    id: 'DESP',
+    name: 'Despegar',
+    type: 'cedears',
+  },
+  {
+    id: 'DIA',
+    name: 'SPDR Dow Jones Industrial Average ETF',
+    type: 'cedears',
+  },
+  {
+    id: 'DISN',
+    name: 'The Walt Disney Company',
+    type: 'cedears',
+  },
+  {
+    id: 'DOCU',
+    name: 'DocuSign',
+    type: 'cedears',
+  },
+  {
+    id: 'DOW',
+    name: 'Dow',
+    type: 'cedears',
+  },
+  {
+    id: 'E',
+    name: 'Eni',
+    type: 'cedears',
+  },
+  {
+    id: 'EA',
+    name: 'Electronic Arts',
+    type: 'cedears',
+  },
+  {
+    id: 'EBAY',
+    name: 'eBay',
+    type: 'cedears',
+  },
+  {
+    id: 'EBR',
+    name: 'Cetrais Eléctricas Brasileiras',
+    type: 'cedears',
+  },
+  {
+    id: 'EEM',
+    name: 'iShares MSCI Emerging Markets ETF',
+    type: 'cedears',
+  },
+  {
+    id: 'EFX',
+    name: 'Equifax',
+    type: 'cedears',
+  },
+  {
+    id: 'ERJ',
+    name: 'Embraer',
+    type: 'cedears',
+  },
+  {
+    id: 'ETSY',
+    name: 'Etsy',
+    type: 'cedears',
+  },
+  {
+    id: 'EWZ',
+    name: 'iShares MSCI Brazil ETF',
+    type: 'cedears',
+  },
+  {
+    id: 'F',
+    name: 'Ford Motor Company',
+    type: 'cedears',
+  },
+  {
+    id: 'FCX',
+    name: 'Freeport-McMoRan',
+    type: 'cedears',
+  },
+  {
+    id: 'FDX',
+    name: 'FedEx',
+    type: 'cedears',
+  },
+  {
+    id: 'FMX',
+    name: 'Femsa',
+    type: 'cedears',
+  },
+  {
+    id: 'FSLR',
+    name: 'First Solar',
+    type: 'cedears',
+  },
+  {
+    id: 'GE',
+    name: 'General Electric',
+    type: 'cedears',
+  },
+  {
+    id: 'GFI',
+    name: 'Gold Fields',
+    type: 'cedears',
+  },
+  {
+    id: 'GGB',
+    name: 'Gerdau',
+    type: 'cedears',
+  },
+  {
+    id: 'GILD',
+    name: 'Gilead Sciences',
+    type: 'cedears',
+  },
+  {
+    id: 'GLOB',
+    name: 'Globant',
+    type: 'cedears',
+  },
+  {
+    id: 'GLW',
+    name: 'Corning',
+    type: 'cedears',
+  },
+  {
+    id: 'GM',
+    name: 'General Motors',
+    type: 'cedears',
+  },
+  {
+    id: 'GOLD',
+    name: 'Barrick Gold',
+    type: 'cedears',
+  },
+  {
+    id: 'GOOGL',
+    name: 'Alphabet Class A',
+    type: 'cedears',
+  },
+  {
+    id: 'GPRK',
+    name: 'Geopark',
+    type: 'cedears',
+  },
+  {
+    id: 'GRMN',
+    name: 'Garmin',
+    type: 'cedears',
+  },
+  {
+    id: 'GS',
+    name: 'Goldman Sachs',
+    type: 'cedears',
+  },
+  {
+    id: 'GSK',
+    name: 'GlaxoSmithKline',
+    type: 'cedears',
+  },
+  {
+    id: 'HAL',
+    name: 'Halliburton',
+    type: 'cedears',
+  },
+  {
+    id: 'HAPV3',
+    name: 'Hapvida',
+    type: 'cedears',
+  },
+  {
+    id: 'HD',
+    name: 'Home Depot',
+    type: 'cedears',
+  },
+  {
+    id: 'HDB',
+    name: 'HDFC Bank',
+    type: 'cedears',
+  },
+  {
+    id: 'HL',
+    name: 'Hecla Mining',
+    type: 'cedears',
+  },
+  {
+    id: 'HMY',
+    name: 'Harmony Gold',
+    type: 'cedears',
+  },
+  {
+    id: 'HOG',
+    name: 'Harley Davidson',
+    type: 'cedears',
+  },
+  {
+    id: 'HON',
+    name: 'Honeywell International',
+    type: 'cedears',
+  },
+  {
+    id: 'HPQ',
+    name: 'Hewlett-Packard',
+    type: 'cedears',
+  },
+  {
+    id: 'HSY',
+    name: 'Hershey',
+    type: 'cedears',
+  },
+  {
+    id: 'HUT',
+    name: 'Hut 8',
+    type: 'cedears',
+  },
+  {
+    id: 'HWM',
+    name: 'Howmet Aerospace',
+    type: 'cedears',
+  },
+  {
+    id: 'IBM',
+    name: 'IBM',
+    type: 'cedears',
+  },
+  {
+    id: 'IBN',
+    name: 'ICICI Bank',
+    type: 'cedears',
+  },
+  {
+    id: 'IFF',
+    name: 'International Flavors & Fragrances',
+    type: 'cedears',
+  },
+  {
+    id: 'INFY',
+    name: 'Infosys',
+    type: 'cedears',
+  },
+  {
+    id: 'ING',
+    name: 'ING Group',
+    type: 'cedears',
+  },
+  {
+    id: 'INTC',
+    name: 'Intel',
+    type: 'cedears',
+  },
+  {
+    id: 'IP',
+    name: 'International Paper',
+    type: 'cedears',
+  },
+  {
+    id: 'ITUB',
+    name: 'Itaú Unibanco Holding',
+    type: 'cedears',
+  },
+  {
+    id: 'IWM',
+    name: 'iShares Russell 2000 ETF',
+    type: 'cedears',
+  },
+  {
+    id: 'JD',
+    name: 'JD.com',
+    type: 'cedears',
+  },
+  {
+    id: 'JMIA',
+    name: 'Jumia Technologies',
+    type: 'cedears',
+  },
+  {
+    id: 'JNJ',
+    name: 'Johnson & Johnson',
+    type: 'cedears',
+  },
+  {
+    id: 'JPM',
+    name: 'JPMorgan Chase & Co',
+    type: 'cedears',
+  },
+  {
+    id: 'KMB',
+    name: 'Kimberly-Clark',
+    type: 'cedears',
+  },
+  {
+    id: 'KO',
+    name: 'The Coca-Cola Company',
+    type: 'cedears',
+  },
+  {
+    id: 'KOFM',
+    name: 'Coca-Cola Femsa',
+    type: 'cedears',
+  },
+  {
+    id: 'LAC',
+    name: 'Lithium Americas',
+    type: 'cedears',
+  },
+  {
+    id: 'LLY',
+    name: 'Eli Lilly',
+    type: 'cedears',
+  },
+  {
+    id: 'LMT',
+    name: 'Lockheed Martin',
+    type: 'cedears',
+  },
+  {
+    id: 'LND',
+    name: 'Brasilagro',
+    type: 'cedears',
+  },
+  {
+    id: 'LRCX',
+    name: 'Lam Research',
+    type: 'cedears',
+  },
+  {
+    id: 'LREN3',
+    name: 'Lojas Renner',
+    type: 'cedears',
+  },
+  {
+    id: 'LVS',
+    name: 'Las Vegas Sands',
+    type: 'cedears',
+  },
+  {
+    id: 'LYG',
+    name: 'Lloyds Banking Group',
+    type: 'cedears',
+  },
+  {
+    id: 'MA',
+    name: 'Mastercard',
+    type: 'cedears',
+  },
+  {
     id: 'MCD',
-    name: 'McDonalds',
+    name: 'McDonald’s',
+    type: 'cedears',
+  },
+  {
+    id: 'MDLZ',
+    name: 'Mondelez International',
+    type: 'cedears',
+  },
+  {
+    id: 'MDT',
+    name: 'Medtronic',
+    type: 'cedears',
+  },
+  {
+    id: 'MELI',
+    name: 'MercadoLibre',
+    type: 'cedears',
+  },
+  {
+    id: 'META',
+    name: 'Meta Platforms',
+    type: 'cedears',
+  },
+  {
+    id: 'MFG',
+    name: 'Mizuho Financial Group',
+    type: 'cedears',
+  },
+  {
+    id: 'MGLU3',
+    name: 'Magazine Luiza',
+    type: 'cedears',
+  },
+  {
+    id: 'MMM',
+    name: '3M',
+    type: 'cedears',
+  },
+  {
+    id: 'MO',
+    name: 'Altria Group',
+    type: 'cedears',
+  },
+  {
+    id: 'MOS',
+    name: 'Mosaic',
+    type: 'cedears',
+  },
+  {
+    id: 'MRK',
+    name: 'Merck',
+    type: 'cedears',
+  },
+  {
+    id: 'MRNA',
+    name: 'Moderna',
+    type: 'cedears',
+  },
+  {
+    id: 'MRVL',
+    name: 'Marvell Technology',
+    type: 'cedears',
+  },
+  {
+    id: 'MSFT',
+    name: 'Microsoft',
+    type: 'cedears',
+  },
+  {
+    id: 'MSI',
+    name: 'Motorola Solutions',
+    type: 'cedears',
+  },
+  {
+    id: 'MSTR',
+    name: 'MicroStrategy',
+    type: 'cedears',
+  },
+  {
+    id: 'MU',
+    name: 'Micron Technology',
+    type: 'cedears',
+  },
+  {
+    id: 'MUFG',
+    name: 'Mitubishi UFJ Financial Group',
+    type: 'cedears',
+  },
+  {
+    id: 'MUX',
+    name: 'McEwen Mining',
+    type: 'cedears',
+  },
+  {
+    id: 'NEM',
+    name: 'Newmont Mining',
+    type: 'cedears',
+  },
+  {
+    id: 'NFLX',
+    name: 'Netflix',
+    type: 'cedears',
+  },
+  {
+    id: 'NG',
+    name: 'Novagold Resources',
+    type: 'cedears',
+  },
+  {
+    id: 'NGG',
+    name: 'National Grid',
+    type: 'cedears',
+  },
+  {
+    id: 'NIO',
+    name: 'NIO',
+    type: 'cedears',
+  },
+  {
+    id: 'NKE',
+    name: 'Nike',
+    type: 'cedears',
+  },
+  {
+    id: 'NOKA',
+    name: 'Nokia',
+    type: 'cedears',
+  },
+  {
+    id: 'NSAN',
+    name: 'Nissan',
+    type: 'cedears',
+  },
+  {
+    id: 'NTES',
+    name: 'NetEase',
+    type: 'cedears',
+  },
+  {
+    id: 'NU',
+    name: 'NU',
+    type: 'cedears',
+  },
+  {
+    id: 'NUE',
+    name: 'Nucor',
+    type: 'cedears',
+  },
+  {
+    id: 'NVDA',
+    name: 'Nvidia',
+    type: 'cedears',
+  },
+  {
+    id: 'NVS',
+    name: 'Novartis',
+    type: 'cedears',
+  },
+  {
+    id: 'ORAN',
+    name: 'Orange',
+    type: 'cedears',
+  },
+  {
+    id: 'ORCL',
+    name: 'Oracle',
+    type: 'cedears',
+  },
+  {
+    id: 'OXY',
+    name: 'Occidental Petroleum',
+    type: 'cedears',
+  },
+  {
+    id: 'PAAS',
+    name: 'Pan American Silver',
+    type: 'cedears',
+  },
+  {
+    id: 'PAGS',
+    name: 'PagSeguro Digital',
+    type: 'cedears',
+  },
+  {
+    id: 'PANW',
+    name: 'Palo Alto Networks',
+    type: 'cedears',
+  },
+  {
+    id: 'PBI',
+    name: 'Pitney Bowes',
+    type: 'cedears',
+  },
+  {
+    id: 'PBR',
+    name: 'Petroleo Brasileiro',
+    type: 'cedears',
+  },
+  {
+    id: 'PCAR',
+    name: 'PACCAR',
+    type: 'cedears',
+  },
+  {
+    id: 'PEP',
+    name: 'PepsiCo',
+    type: 'cedears',
+  },
+  {
+    id: 'PFE',
+    name: 'Pfizer',
+    type: 'cedears',
+  },
+  {
+    id: 'PG',
+    name: 'Procter & Gamble',
+    type: 'cedears',
+  },
+  {
+    id: 'PHG',
+    name: 'Phillips Electronics',
+    type: 'cedears',
+  },
+  {
+    id: 'PINS',
+    name: 'Pinterest',
+    type: 'cedears',
+  },
+  {
+    id: 'PKS',
+    name: 'Posco Holdings',
+    type: 'cedears',
+  },
+  {
+    id: 'PLTR',
+    name: 'Palantir Technologies',
+    type: 'cedears',
+  },
+  {
+    id: 'PM',
+    name: 'Phillip Morris',
+    type: 'cedears',
+  },
+  {
+    id: 'PRIO3',
+    name: 'Petro Rio',
+    type: 'cedears',
+  },
+  {
+    id: 'PSX',
+    name: 'Phillips 66',
+    type: 'cedears',
+  },
+  {
+    id: 'PYPL',
+    name: 'Paypal',
+    type: 'cedears',
+  },
+  {
+    id: 'QCOM',
+    name: 'Qualcomm',
+    type: 'cedears',
+  },
+  {
+    id: 'QQQ',
+    name: 'Invesco QQQ ETF',
+    type: 'cedears',
+  },
+  {
+    id: 'RACE',
+    name: 'Ferrari',
+    type: 'cedears',
+  },
+  {
+    id: 'RBLX',
+    name: 'Roblox',
+    type: 'cedears',
+  },
+  {
+    id: 'RENT3',
+    name: 'Localiza',
+    type: 'cedears',
+  },
+  {
+    id: 'RIO',
+    name: 'Rio Tinto',
+    type: 'cedears',
+  },
+  {
+    id: 'RIOT',
+    name: 'Riot Platforms',
+    type: 'cedears',
+  },
+  {
+    id: 'ROKU',
+    name: 'Roku',
+    type: 'cedears',
+  },
+  {
+    id: 'ROST',
+    name: 'Ross',
+    type: 'cedears',
+  },
+  {
+    id: 'RTX',
+    name: 'United Technologies',
+    type: 'cedears',
+  },
+  {
+    id: 'SAN',
+    name: 'Banco Santander',
+    type: 'cedears',
+  },
+  {
+    id: 'SAP',
+    name: 'SAP',
+    type: 'cedears',
+  },
+  {
+    id: 'SATL',
+    name: 'Satellogic',
+    type: 'cedears',
+  },
+  {
+    id: 'SBS',
+    name: 'Saneamento Basico De Sao Paulo',
+    type: 'cedears',
+  },
+  {
+    id: 'SBUX',
+    name: 'Starbucks',
+    type: 'cedears',
+  },
+  {
+    id: 'SCCO',
+    name: 'Southern Copper',
+    type: 'cedears',
+  },
+  {
+    id: 'SCHW',
+    name: 'Charles Schwab',
+    type: 'cedears',
+  },
+  {
+    id: 'SD',
+    name: 'SandRidge Energy',
+    type: 'cedears',
+  },
+  {
+    id: 'SDA',
+    name: 'Suncar Technology',
+    type: 'cedears',
+  },
+  {
+    id: 'SE',
+    name: 'Sea',
+    type: 'cedears',
+  },
+  {
+    id: 'SHEL',
+    name: 'Shell',
+    type: 'cedears',
+  },
+  {
+    id: 'SHOP',
+    name: 'Shopify',
+    type: 'cedears',
+  },
+  {
+    id: 'SID',
+    name: 'Companhia Siderúrgica Nacional',
+    type: 'cedears',
+  },
+  {
+    id: 'SLB',
+    name: 'Schlumberger',
+    type: 'cedears',
+  },
+  {
+    id: 'SMSN',
+    name: 'Samsung Electronics',
+    type: 'cedears',
+  },
+  {
+    id: 'SNA',
+    name: 'Snap-On',
+    type: 'cedears',
+  },
+  {
+    id: 'SNAP',
+    name: 'Snap',
+    type: 'cedears',
+  },
+  {
+    id: 'SNOW',
+    name: 'Snowflake',
+    type: 'cedears',
+  },
+  {
+    id: 'SONY',
+    name: 'Sony',
+    type: 'cedears',
+  },
+  {
+    id: 'SPCE',
+    name: 'Virgin Galactic',
+    type: 'cedears',
+  },
+  {
+    id: 'SPGI',
+    name: 'S&P Global',
+    type: 'cedears',
+  },
+  {
+    id: 'SPOT',
+    name: 'Spotify',
+    type: 'cedears',
+  },
+  {
+    id: 'SPY',
+    name: 'SPDR S&P 500 ETF',
+    type: 'cedears',
+  },
+  {
+    id: 'SQ',
+    name: 'Block',
+    type: 'cedears',
+  },
+  {
+    id: 'STLA',
+    name: 'Stellantis',
+    type: 'cedears',
+  },
+  {
+    id: 'STNE',
+    name: 'StoneCo',
+    type: 'cedears',
+  },
+  {
+    id: 'SUZ',
+    name: 'Suzano',
+    type: 'cedears',
+  },
+  {
+    id: 'SWKS',
+    name: 'Skyworks',
+    type: 'cedears',
+  },
+  {
+    id: 'SYY',
+    name: 'Sysco',
+    type: 'cedears',
+  },
+  {
+    id: 'T',
+    name: 'AT&T',
+    type: 'cedears',
+  },
+  {
+    id: 'TCOM',
+    name: 'Trip.com Group',
+    type: 'cedears',
+  },
+  {
+    id: 'TEFO',
+    name: 'Telefonica',
+    type: 'cedears',
+  },
+  {
+    id: 'TEN',
+    name: 'Tenaris',
+    type: 'cedears',
+  },
+  {
+    id: 'TGT',
+    name: 'Target',
+    type: 'cedears',
+  },
+  {
+    id: 'TIMB',
+    name: 'Tim',
+    type: 'cedears',
+  },
+  {
+    id: 'TM',
+    name: 'Toyota Motors',
+    type: 'cedears',
+  },
+  {
+    id: 'TMO',
+    name: 'Thermo Fisher Scientific',
+    type: 'cedears',
+  },
+  {
+    id: 'TMUS',
+    name: 'T-Mobile US',
+    type: 'cedears',
+  },
+  {
+    id: 'TRIP',
+    name: 'TripAdvisor',
+    type: 'cedears',
+  },
+  {
+    id: 'TSLA',
+    name: 'Tesla',
+    type: 'cedears',
+  },
+  {
+    id: 'TSM',
+    name: 'Taiwan Semiconductor Manufacturing Company',
+    type: 'cedears',
+  },
+  {
+    id: 'TTE',
+    name: 'TotalEnergies SE',
+    type: 'cedears',
+  },
+  {
+    id: 'TV',
+    name: 'Grupo Televisa',
+    type: 'cedears',
+  },
+  {
+    id: 'TWLO',
+    name: 'Twilio',
+    type: 'cedears',
+  },
+  {
+    id: 'TXN',
+    name: 'Texas Instruments',
+    type: 'cedears',
+  },
+  {
+    id: 'TXR',
+    name: 'Ternium',
+    type: 'cedears',
+  },
+  {
+    id: 'UAL',
+    name: 'United Airlines',
+    type: 'cedears',
+  },
+  {
+    id: 'UBER',
+    name: 'Uber',
+    type: 'cedears',
+  },
+  {
+    id: 'UGP',
+    name: 'Ultrapar',
+    type: 'cedears',
+  },
+  {
+    id: 'UL',
+    name: 'Unilever',
+    type: 'cedears',
+  },
+  {
+    id: 'UNH',
+    name: 'UnitedHealth',
+    type: 'cedears',
+  },
+  {
+    id: 'UNP',
+    name: 'Union Pacific',
+    type: 'cedears',
+  },
+  {
+    id: 'UPST',
+    name: 'Upstart',
+    type: 'cedears',
+  },
+  {
+    id: 'USB',
+    name: 'US Bank',
+    type: 'cedears',
+  },
+  {
+    id: 'V',
+    name: 'Visa',
+    type: 'cedears',
+  },
+  {
+    id: 'VALE',
+    name: 'Vale',
+    type: 'cedears',
+  },
+  {
+    id: 'VIST',
+    name: 'Vista Energy',
+    type: 'cedears',
+  },
+  {
+    id: 'VIV',
+    name: 'Telefonica Brasil',
+    type: 'cedears',
+  },
+  {
+    id: 'VOD',
+    name: 'Vodafone',
+    type: 'cedears',
+  },
+  {
+    id: 'VRSN',
+    name: 'Verisign',
+    type: 'cedears',
+  },
+  {
+    id: 'VZ',
+    name: 'Verizon',
+    type: 'cedears',
+  },
+  {
+    id: 'WBA',
+    name: 'Walgreens',
+    type: 'cedears',
+  },
+  {
+    id: 'WBO',
+    name: 'Weibo',
+    type: 'cedears',
+  },
+  {
+    id: 'WFC',
+    name: 'Wells Fargo',
+    type: 'cedears',
+  },
+  {
+    id: 'WMT',
+    name: 'Waltmart',
+    type: 'cedears',
+  },
+  {
+    id: 'X',
+    name: 'United States Steel',
+    type: 'cedears',
+  },
+  {
+    id: 'XLE',
+    name: 'Energy Sector SPDR ETF',
+    type: 'cedears',
+  },
+  {
+    id: 'XLF',
+    name: 'Financial Sector SPDR ETF',
+    type: 'cedears',
+  },
+  {
+    id: 'XOM',
+    name: 'Exxon Mobil',
+    type: 'cedears',
+  },
+  {
+    id: 'XP',
+    name: 'XP',
+    type: 'cedears',
+  },
+  {
+    id: 'XROX',
+    name: 'Xerox',
+    type: 'cedears',
+  },
+  {
+    id: 'YELP',
+    name: 'Yelp',
+    type: 'cedears',
+  },
+  {
+    id: 'YY',
+    name: 'JOYY',
+    type: 'cedears',
+  },
+  {
+    id: 'YZCA',
+    name: 'Yankuang Energy Group',
+    type: 'cedears',
+  },
+  {
+    id: 'ZM',
+    name: 'Zoom',
     type: 'cedears',
   },
   {

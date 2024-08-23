@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+  <rect width="18" height="18" style="fill: #fafafa;"/>
+  <g>
+    <path d="M4,5.25h4.38v1.56h-1.25v.62h-1.56v.94h-1.56v-3.12Z" style="fill: #b01024;"/>
+    <path d="M14,12.75h-4.38v-1.56h1.25v-.62h1.56v-.94h1.56v3.12Z" style="fill: #282423;"/>
+    <path d="M14,5.25h-4.38v1.56h1.25v.62h1.56v.94h1.56v-3.12Z" style="fill: #b01024;"/>
+    <path d="M4,12.75h4.38v-1.56h-1.25v-.62h-1.56v-.94h-1.56v3.12ZM8.38,7.44h1.25v1.25h1.25v.62h-1.25v1.25h-1.25v-1.25h-1.25v-.62h1.25v-1.25Z" style="fill: #282423;"/>
+  </g>
+</svg>
