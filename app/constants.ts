@@ -616,7 +616,7 @@ export const ICONS = [
     type: 'cedears',
   },
   {
-    id: 'C.D',
+    id: 'C',
     name: 'Citigroup',
     type: 'cedears',
   },
