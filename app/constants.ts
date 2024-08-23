@@ -516,6 +516,11 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'BAS',
+    name: 'BASF',
+    tpye: 'cedears',
+  },
+  {
     id: 'BAK',
     name: 'Braskem',
     type: 'cedears',
@@ -613,6 +618,11 @@ export const ICONS = [
   {
     id: 'BSBR',
     name: 'Banco Santander Brasil',
+    type: 'cedears',
+  },
+  {
+    id: 'BSN',
+    name: 'Danone',
     type: 'cedears',
   },
   {
@@ -736,6 +746,11 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'DTEA',
+    name: 'Deutsche Telekom',
+    type: 'cedears',
+  },
+  {
     id: 'E',
     name: 'Eni',
     type: 'cedears',
@@ -766,8 +781,23 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'ELP',
+    name: 'Copel',
+    type: 'cedears',
+  },
+  {
+    id: 'ERIC',
+    name: 'Ericsson',
+    type: 'cedears',
+  },
+  {
     id: 'ERJ',
     name: 'Embraer',
+    type: 'cedears',
+  },
+  {
+    id: 'EOAN',
+    name: 'E.ON',
     type: 'cedears',
   },
   {
@@ -796,8 +826,18 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'FMCC',
+    name: 'Freddie Mac',
+    type: 'cedears',
+  },
+  {
     id: 'FMX',
     name: 'Femsa',
+    type: 'cedears',
+  },
+  {
+    id: 'FNMA',
+    name: 'Fannie Mae',
     type: 'cedears',
   },
   {
@@ -891,8 +931,18 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'HHPD',
+    name: 'Hon Hai Precision Industry',
+    type: 'cedears',
+  },
+  {
     id: 'HL',
     name: 'Hecla Mining',
+    type: 'cedears',
+  },
+  {
+    id: 'HMC',
+    name: 'Honda Motor',
     type: 'cedears',
   },
   {
@@ -913,6 +963,11 @@ export const ICONS = [
   {
     id: 'HPQ',
     name: 'Hewlett-Packard',
+    type: 'cedears',
+  },
+  {
+    id: 'HSBC',
+    name: 'HSBC',
     type: 'cedears',
   },
   {
@@ -976,6 +1031,11 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'JCI',
+    name: 'Johnson Controls',
+    type: 'cedears',
+  },
+  {
     id: 'JD',
     name: 'JD.com',
     type: 'cedears',
@@ -993,6 +1053,21 @@ export const ICONS = [
   {
     id: 'JPM',
     name: 'JPMorgan Chase & Co',
+    type: 'cedears',
+  },
+  {
+    id: 'KB',
+    name: 'Kookmin Bank',
+    type: 'cedears',
+  },
+  {
+    id: 'KEP',
+    name: 'Korea Electric Power',
+    type: 'cedears',
+  },
+  {
+    id: 'KGC',
+    name: 'Kinross Gold',
     type: 'cedears',
   },
   {
@@ -1056,6 +1131,11 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'MBG',
+    name: 'Mercedes-Benz Group',
+    type: 'cedears',
+  },
+  {
     id: 'MCD',
     name: 'McDonald’s',
     type: 'cedears',
@@ -1088,6 +1168,11 @@ export const ICONS = [
   {
     id: 'MGLU3',
     name: 'Magazine Luiza',
+    type: 'cedears',
+  },
+  {
+    id: 'MMC',
+    name: 'Marsh & McLennan',
     type: 'cedears',
   },
   {
@@ -1151,6 +1236,11 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'NEC1',
+    name: 'NEC',
+    type: 'cedears',
+  },
+  {
     id: 'NEM',
     name: 'Newmont Mining',
     type: 'cedears',
@@ -1178,6 +1268,11 @@ export const ICONS = [
   {
     id: 'NKE',
     name: 'Nike',
+    type: 'cedears',
+  },
+  {
+    id: 'NMR',
+    name: 'Nomura Holdings',
     type: 'cedears',
   },
   {
@@ -1233,6 +1328,11 @@ export const ICONS = [
   {
     id: 'PAAS',
     name: 'Pan American Silver',
+    type: 'cedears',
+  },
+  {
+    id: 'PAC',
+    name: 'Grupo Aeroportuario del Pacifico',
     type: 'cedears',
   },
   {

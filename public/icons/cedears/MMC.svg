@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+  <path d="M0,0h18v18H0V0Z" style="fill: #fafafa;"/>
+  <g>
+    <path d="M12,12.45l-3-1.73,3-1.72v3.45Z" style="fill: #98d5e9;"/>
+    <path d="M6,12.45l-3-1.73,3-1.72v3.45Z" style="fill: #0065a0;"/>
+    <path d="M9,10.73l3-1.73v-3.45l-6,3.45,3,1.73h0Z" style="fill: #00a7ce;"/>
+    <path d="M15,10.73l-3-1.73,3-1.72v3.45h0Z" style="fill: #0065a0;"/>
+    <path d="M12,12.45l3-1.73-3-1.72v3.45ZM6,5.55l-3,1.72v3.45l3-1.73v-3.45h0Z" style="fill: #00a7ce;"/>
+    <path d="M6,9l3-1.73-3-1.72v3.45h0Z" style="fill: #002d73;"/>
+    <path d="M6,12.45l3-1.73-3-1.72v3.45Z" style="fill: #98d5e9;"/>
+    <path d="M12,9l3-1.73-3-1.72v3.45h0Z" style="fill: #002d73;"/>
+  </g>
+</svg>
