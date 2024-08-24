@@ -1666,6 +1666,11 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'TRVV',
+    name: 'Travelers',
+    type: 'cedears',
+  },
+  {
     id: 'TSLA',
     name: 'Tesla',
     type: 'cedears',
