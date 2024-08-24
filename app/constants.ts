@@ -1531,6 +1531,11 @@ export const ICONS = [
     type: 'cedears',
   },
   {
+    id: 'SIEGY',
+    name: 'Siemens',
+    type: 'cedears',
+  },
+  {
     id: 'SLB',
     name: 'Schlumberger',
     type: 'cedears',
@@ -1728,6 +1733,11 @@ export const ICONS = [
   {
     id: 'UPST',
     name: 'Upstart',
+    type: 'cedears',
+  },
+  {
+    id: 'URBN',
+    name: 'Urban Outfitters',
     type: 'cedears',
   },
   {
