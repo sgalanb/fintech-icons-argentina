@@ -47,6 +47,7 @@ export default function IconList() {
               <SelectItem value="all">Todos los iconos</SelectItem>
               <SelectItem value="acciones">Acciones</SelectItem>
               <SelectItem value="cedears">CEDEARs</SelectItem>
+              <SelectItem value="bancos-apps">Bancos y Apps</SelectItem>
               <SelectItem value="gerentes-fci">Gerentes de FCI</SelectItem>
               <SelectItem value="monedas">Monedas</SelectItem>
             </SelectGroup>

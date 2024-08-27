@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+  <g clip-path="url(#a)">
+    <path fill="#0E2043" d="M0 0h18v18H0V0Z" />
+    <path fill="url(#b)" fill-opacity=".7" d="m1.7 18 9.65-18H0v18h1.7Z" />
+    <path
+      fill="#fff"
+      d="M6.064 12.913 8.857 7.6c.06-.113.232-.113.292 0l2.792 5.314a.156.156 0 0 0 .14.087h1.354a.122.122 0 0 0 .108-.179l-4.4-8.236c-.06-.113-.221-.113-.286 0l-4.4 8.236a.122.122 0 0 0 .108.179h1.353a.189.189 0 0 0 .146-.087Z"
+    />
+  </g>
+  <defs>
+    <radialGradient
+      id="b"
+      cx="0"
+      cy="0"
+      r="1"
+      gradientTransform="matrix(-7.46952 -6.50002 6.98802 -8.0303 6.536 9)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#2B5F9D" />
+      <stop offset="1" stop-color="#2B5F9D" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="a">
+      <path fill="#fff" d="M0 0h18v18H0z" />
+    </clipPath>
+  </defs>
+</svg>

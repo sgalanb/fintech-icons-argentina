@@ -1865,4 +1865,129 @@ export const ICONS = [
     name: 'Dólar Estadounidense',
     type: 'monedas',
   },
+  {
+    id: 'banco-bica',
+    name: 'Banco Bica',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-ciudad',
+    name: 'Banco Ciudad',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-coinag',
+    name: 'Banco Coinag',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-columbia',
+    name: 'Banco Columbia',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-comafi',
+    name: 'Banco Comafi',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-corrientes',
+    name: 'Banco Corrientes',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-credicoop',
+    name: 'Banco Credicoop',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-del-sol',
+    name: 'Banco del Sol',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-entre-rios',
+    name: 'Banco Entre Ríos',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-hipotecario',
+    name: 'Banco Hipotecario',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-macro',
+    name: 'Banco Macro',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-municipal',
+    name: 'Banco Municipal',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-patagonia',
+    name: 'Banco Patagonia',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-san-juan',
+    name: 'Banco San Juan',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-santa-cruz',
+    name: 'Banco Santa Cruz',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-santa-fe',
+    name: 'Banco Santa Fe',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-santander',
+    name: 'Banco Santander',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-supervielle',
+    name: 'Banco Supervielle',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-bbva',
+    name: 'BBVA',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'brubank',
+    name: 'Brubank',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'cabal',
+    name: 'Cabal',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-icbc',
+    name: 'ICBC',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-itau',
+    name: 'Itaú',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-galicia',
+    name: 'Galicia',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'modo',
+    name: 'MODO',
+    type: 'bancos-apps',
+  },
 ] as IconType[]
