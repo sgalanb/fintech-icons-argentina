@@ -518,7 +518,7 @@ export const ICONS = [
   {
     id: 'BAS',
     name: 'BASF',
-    tpye: 'cedears',
+    type: 'cedears',
   },
   {
     id: 'BAK',
