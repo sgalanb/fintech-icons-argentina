@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clippath">
+      <path d="M12.17,4.25c.98,0,1.83.83,1.84,1.78v5.92h-3.6c-2.3,0-4.16-1.94-4.16-4.32h.62c0,2.03,1.59,3.68,3.54,3.68h2.99v-5.28c0-.6-.58-1.14-1.21-1.14h-7.55v2.73h-.62v-3.37h8.16Z" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path d="M9.08,7.62c0,.75.6,1.37,1.32,1.37v.64c-1.07,0-1.94-.91-1.94-2.01h.62Z" style="fill: none;"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <path d="M4.63,7.62c0,3.31,2.58,6,5.77,6v.63c-3.52,0-6.39-2.98-6.39-6.63h.62Z" style="fill: none;"/>
+    </clipPath>
+  </defs>
+  <rect width="18" height="18" style="fill: #5a50f9;"/>
+  <g>
+    <g style="clip-path: url(#clippath);">
+      <path d="M4.01,4.25h10v7.69H4.01v-7.69Z" style="fill: #fff;"/>
+    </g>
+    <g style="clip-path: url(#clippath-1);">
+      <path d="M8.46,7.62h1.94v2.01h-1.94v-2.01Z" style="fill: #fff;"/>
+    </g>
+    <g style="clip-path: url(#clippath-2);">
+      <path d="M4.01,7.62h6.39v6.63h-6.39v-6.63Z" style="fill: #fff;"/>
+    </g>
+  </g>
+</svg>

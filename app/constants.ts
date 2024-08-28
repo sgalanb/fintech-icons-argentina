@@ -1990,4 +1990,69 @@ export const ICONS = [
     name: 'MODO',
     type: 'bancos-apps',
   },
+  {
+    id: 'naranja-x',
+    name: 'Naranja X',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'openbank',
+    name: 'Openbank',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'personal-pay',
+    name: 'Personal Pay',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'prex',
+    name: 'Prex',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'uala',
+    name: 'Ualá',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'yoy',
+    name: 'YOY',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'mercadopago',
+    name: 'MercadoPago',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'bancor',
+    name: 'Bancor',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-hsbc',
+    name: 'HSBC',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'bpn',
+    name: 'BPN',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-piano',
+    name: 'Banco Piano',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'banco-provincia',
+    name: 'Banco Provincia',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'cuenta-dni',
+    name: 'Cuenta DNI',
+    type: 'bancos-apps',
+  },
 ] as IconType[]
