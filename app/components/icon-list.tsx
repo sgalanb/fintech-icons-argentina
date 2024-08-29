@@ -23,18 +23,29 @@ import {
 } from '@/app/components/ui/select'
 import { ICONS, IconType } from '@/app/constants'
 import { Check, Copy, Download } from 'lucide-react'
-import { useState } from 'react'
+import { useSearchParams } from 'next/navigation'
+import { useQueryState } from 'nuqs'
+import { Fragment, useState } from 'react'
 
 export default function IconList() {
-  const [search, setSearch] = useState<string>('')
-  const [selectedType, setSelectedType] = useState<string>('all')
+  const searchParams = useSearchParams()
+
+  const [search, setSearch] = useQueryState('search', {
+    defaultValue: '',
+    clearOnDefault: true,
+  })
+  const [selectedType, setSelectedType] = useQueryState('type', {
+    defaultValue: 'all',
+    clearOnDefault: true,
+  })
 
   return (
     <div className="flex w-full flex-col items-center justify-center gap-6 p-3 md:p-0">
       <div className="flex w-full items-center justify-between gap-3">
         <Input
+          type="search"
           placeholder="Buscar iconos..."
-          value={search}
+          defaultValue={searchParams.get('search') || ''}
           onChange={(e) => setSearch(e.target.value)}
           className="w-full max-w-[18.75rem]"
         />
@@ -66,7 +77,7 @@ export default function IconList() {
           )
           .sort((a, b) => a.name.localeCompare(b.name))
           .map((stock) => (
-            <>
+            <Fragment key={stock.id}>
               <div className="hidden md:block">
                 <Dialog>
                   <DialogTrigger className="w-full">
@@ -87,7 +98,7 @@ export default function IconList() {
                   </DrawerContent>
                 </Drawer>
               </div>
-            </>
+            </Fragment>
           ))}
       </div>
     </div>
