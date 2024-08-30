@@ -2060,4 +2060,49 @@ export const ICONS = [
     name: 'Banco Nación',
     type: 'bancos-apps',
   },
+  {
+    id: 'claro-pay',
+    name: 'Claro Pay',
+    type: 'bancos-apps',
+  },
+  {
+    id: 'belo',
+    name: 'Belo',
+    type: 'cripto',
+  },
+  {
+    id: 'buenbit',
+    name: 'Buenbit',
+    type: 'cripto',
+  },
+  {
+    id: 'dolar-app',
+    name: 'DolarApp',
+    type: 'cripto',
+  },
+  {
+    id: 'fiwind',
+    name: 'Fiwind',
+    type: 'cripto',
+  },
+  {
+    id: 'lemon',
+    name: 'Lemon',
+    type: 'cripto',
+  },
+  {
+    id: 'ripio',
+    name: 'Ripio',
+    type: 'cripto',
+  },
+  {
+    id: 'letsbit',
+    name: "Let'sBit",
+    type: 'cripto',
+  },
+  {
+    id: 'satoshi-tango',
+    name: 'Satoshi Tango',
+    type: 'cripto',
+  },
 ] as IconType[]

@@ -60,6 +60,7 @@ export default function IconList() {
               <SelectItem value="cedears">CEDEARs</SelectItem>
               <SelectItem value="bancos-apps">Bancos y Apps</SelectItem>
               <SelectItem value="gerentes-fci">Gerentes de FCI</SelectItem>
+              <SelectItem value="cripto">Cripto</SelectItem>
               <SelectItem value="monedas">Monedas</SelectItem>
             </SelectGroup>
           </SelectContent>
