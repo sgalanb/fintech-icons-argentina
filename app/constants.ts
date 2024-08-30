@@ -2105,4 +2105,9 @@ export const ICONS = [
     name: 'Satoshi Tango',
     type: 'cripto',
   },
+  {
+    id: 'cocos-crypto',
+    name: 'Cocos Crypto',
+    type: 'cripto',
+  },
 ] as IconType[]
