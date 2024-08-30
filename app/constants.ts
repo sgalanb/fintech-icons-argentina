@@ -2055,4 +2055,9 @@ export const ICONS = [
     name: 'Cuenta DNI',
     type: 'bancos-apps',
   },
+  {
+    id: 'banco-nacion',
+    name: 'Banco Nación',
+    type: 'bancos-apps',
+  },
 ] as IconType[]
