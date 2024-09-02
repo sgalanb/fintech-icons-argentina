@@ -165,7 +165,11 @@ function IconContent({ stock }: { stock: IconType }) {
             </span>
           ) : (
             <span className="line-clamp-1 text-left text-lg text-gray-500">
-              {stock.type === 'gerentes-fci' ? 'Gerente de FCI' : 'Banco/App'}
+              {stock.type === 'gerentes-fci'
+                ? 'Gerente de FCI'
+                : stock.type === 'bancos-apps'
+                  ? 'Banco/App'
+                  : 'Cripto'}
             </span>
           )}
         </div>

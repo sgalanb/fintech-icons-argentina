@@ -1,10 +1,16 @@
 export type IconType = {
   id: string
   name: string
-  type: 'acciones' | 'cedears' | 'gerentes-fci' | 'bancos-apps' | 'monedas'
+  type:
+    | 'acciones'
+    | 'cedears'
+    | 'gerentes-fci'
+    | 'bancos-apps'
+    | 'monedas'
+    | 'cripto'
 }
 
-export const ICONS = [
+export const ICONS: IconType[] = [
   {
     id: 'AGRO',
     name: 'Agrometal',
@@ -2120,4 +2126,4 @@ export const ICONS = [
     name: 'Takenos',
     type: 'cripto',
   },
-] as IconType[]
+]
