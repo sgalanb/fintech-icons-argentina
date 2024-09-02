@@ -2066,6 +2066,11 @@ export const ICONS = [
     type: 'bancos-apps',
   },
   {
+    id: 'cenco-pay',
+    name: 'CencoPay',
+    type: 'bancos-apps',
+  },
+  {
     id: 'belo',
     name: 'Belo',
     type: 'cripto',
