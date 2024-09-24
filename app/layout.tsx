@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: 'Fintech Icons Argentina',
   description:
     'Colección de +400 iconos en formato SVG relacionados con el mundo fintech de Argentina. Acciones, CEDEARs, FCI, Bancos, Apps y más.',
-  verification: { google: 'azxHvdn6Xmn4iAmG0gElQx2mkF1hAleLYwdLBK_MS8' },
+  verification: { google: 'IazxHvdn6Xmn4iAmG0gElQx2mkF1hAleLYwdLBK_MS8' },
 }
 
 export default function RootLayout({
