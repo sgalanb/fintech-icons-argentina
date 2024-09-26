@@ -597,6 +597,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'BKR',
+    name: 'Baker Hughes',
+    type: 'cedears',
+  },
+  {
     id: 'BMY',
     name: 'Bristol-Myers Squibb',
     type: 'cedears',
@@ -729,6 +734,11 @@ export const ICONS: IconType[] = [
   {
     id: 'DESP',
     name: 'Despegar',
+    type: 'cedears',
+  },
+  {
+    id: 'DHR',
+    name: 'Danaher',
     type: 'cedears',
   },
   {
@@ -917,6 +927,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'GT',
+    name: 'Goodyear',
+    type: 'cedears',
+  },
+  {
     id: 'HAL',
     name: 'Halliburton',
     type: 'cedears',
@@ -1027,6 +1042,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'ISRG',
+    name: 'Intuitive Surgical',
+    type: 'cedears',
+  },
+  {
     id: 'ITUB',
     name: 'Itaú Unibanco Holding',
     type: 'cedears',
@@ -1089,6 +1109,11 @@ export const ICONS: IconType[] = [
   {
     id: 'KOFM',
     name: 'Coca-Cola Femsa',
+    type: 'cedears',
+  },
+  {
+    id: 'LAAC',
+    name: 'Lithium Americas Argentina Corp',
     type: 'cedears',
   },
   {
@@ -1317,6 +1342,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'NXE',
+    name: 'NexGen Energy',
+    type: 'cedears',
+  },
+  {
     id: 'ORAN',
     name: 'Orange',
     type: 'cedears',
@@ -1324,6 +1354,11 @@ export const ICONS: IconType[] = [
   {
     id: 'ORCL',
     name: 'Oracle',
+    type: 'cedears',
+  },
+  {
+    id: 'ORLY',
+    name: "O'Reilly Auto Parts",
     type: 'cedears',
   },
   {
@@ -1649,6 +1684,11 @@ export const ICONS: IconType[] = [
   {
     id: 'TIMB',
     name: 'Tim',
+    type: 'cedears',
+  },
+  {
+    id: 'TJX',
+    name: 'TJX',
     type: 'cedears',
   },
   {
