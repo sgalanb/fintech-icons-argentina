@@ -812,6 +812,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'ETHA',
+    name: 'iShares Ethereum Trust ETF',
+    type: 'cedears',
+  },
+  {
     id: 'EOAN',
     name: 'E.ON',
     type: 'cedears',
@@ -862,6 +867,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'FXI',
+    name: 'iShares China Large-Cap ETF',
+    type: 'cedears',
+  },
+  {
     id: 'GE',
     name: 'General Electric',
     type: 'cedears',
@@ -879,6 +889,11 @@ export const ICONS: IconType[] = [
   {
     id: 'GILD',
     name: 'Gilead Sciences',
+    type: 'cedears',
+  },
+  {
+    id: 'GLD',
+    name: 'SPDR Gold Trust',
     type: 'cedears',
   },
   {
@@ -1004,6 +1019,11 @@ export const ICONS: IconType[] = [
   {
     id: 'HWM',
     name: 'Howmet Aerospace',
+    type: 'cedears',
+  },
+  {
+    id: 'IBIT',
+    name: 'iShares Bitcoin Trust ETF',
     type: 'cedears',
   },
   {
@@ -1554,6 +1574,11 @@ export const ICONS: IconType[] = [
   {
     id: 'SE',
     name: 'Sea',
+    type: 'cedears',
+  },
+  {
+    id: 'SH',
+    name: 'ProShares Short S&P500 ETF',
     type: 'cedears',
   },
   {
