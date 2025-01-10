@@ -597,6 +597,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'BKR',
+    name: 'Baker Hughes',
+    type: 'cedears',
+  },
+  {
     id: 'BMY',
     name: 'Bristol-Myers Squibb',
     type: 'cedears',
@@ -732,6 +737,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'DHR',
+    name: 'Danaher',
+    type: 'cedears',
+  },
+  {
     id: 'DIA',
     name: 'SPDR Dow Jones Industrial Average ETF',
     type: 'cedears',
@@ -802,6 +812,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'ETHA',
+    name: 'iShares Ethereum Trust ETF',
+    type: 'cedears',
+  },
+  {
     id: 'EOAN',
     name: 'E.ON',
     type: 'cedears',
@@ -852,6 +867,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'FXI',
+    name: 'iShares China Large-Cap ETF',
+    type: 'cedears',
+  },
+  {
     id: 'GE',
     name: 'General Electric',
     type: 'cedears',
@@ -869,6 +889,11 @@ export const ICONS: IconType[] = [
   {
     id: 'GILD',
     name: 'Gilead Sciences',
+    type: 'cedears',
+  },
+  {
+    id: 'GLD',
+    name: 'SPDR Gold Trust',
     type: 'cedears',
   },
   {
@@ -914,6 +939,11 @@ export const ICONS: IconType[] = [
   {
     id: 'GSK',
     name: 'GlaxoSmithKline',
+    type: 'cedears',
+  },
+  {
+    id: 'GT',
+    name: 'Goodyear',
     type: 'cedears',
   },
   {
@@ -997,6 +1027,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'IBIT',
+    name: 'iShares Bitcoin Trust ETF',
+    type: 'cedears',
+  },
+  {
     id: 'IBM',
     name: 'IBM',
     type: 'cedears',
@@ -1034,6 +1069,11 @@ export const ICONS: IconType[] = [
   {
     id: 'IP',
     name: 'International Paper',
+    type: 'cedears',
+  },
+  {
+    id: 'ISRG',
+    name: 'Intuitive Surgical',
     type: 'cedears',
   },
   {
@@ -1109,6 +1149,11 @@ export const ICONS: IconType[] = [
   {
     id: 'KOFM',
     name: 'Coca-Cola Femsa',
+    type: 'cedears',
+  },
+  {
+    id: 'LAAC',
+    name: 'Lithium Americas Argentina Corp',
     type: 'cedears',
   },
   {
@@ -1337,6 +1382,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'NXE',
+    name: 'NexGen Energy',
+    type: 'cedears',
+  },
+  {
     id: 'ORAN',
     name: 'Orange',
     type: 'cedears',
@@ -1344,6 +1394,11 @@ export const ICONS: IconType[] = [
   {
     id: 'ORCL',
     name: 'Oracle',
+    type: 'cedears',
+  },
+  {
+    id: 'ORLY',
+    name: "O'Reilly Auto Parts",
     type: 'cedears',
   },
   {
@@ -1542,6 +1597,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'SH',
+    name: 'ProShares Short S&P500 ETF',
+    type: 'cedears',
+  },
+  {
     id: 'SHEL',
     name: 'Shell',
     type: 'cedears',
@@ -1669,6 +1729,11 @@ export const ICONS: IconType[] = [
   {
     id: 'TIMB',
     name: 'Tim',
+    type: 'cedears',
+  },
+  {
+    id: 'TJX',
+    name: 'TJX',
     type: 'cedears',
   },
   {
