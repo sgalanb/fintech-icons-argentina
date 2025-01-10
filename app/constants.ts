@@ -992,6 +992,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'IBB',
+    name: 'iShares Nasdaq Biotechnology ETF',
+    type: 'cedears',
+  },
+  {
     id: 'IBM',
     name: 'IBM',
     type: 'cedears',
@@ -999,6 +1004,11 @@ export const ICONS: IconType[] = [
   {
     id: 'IBN',
     name: 'ICICI Bank',
+    type: 'cedears',
+  },
+  {
+    id: 'IEUR',
+    name: 'iShares Core MSCI Europe ETF',
     type: 'cedears',
   },
   {
@@ -1029,6 +1039,16 @@ export const ICONS: IconType[] = [
   {
     id: 'ITUB',
     name: 'Itaú Unibanco Holding',
+    type: 'cedears',
+  },
+  {
+    id: 'IVE',
+    name: 'iShares® S&P 500 Value',
+    type: 'cedears',
+  },
+  {
+    id: 'IVW',
+    name: 'iShares® S&P 500 Growth ETF',
     type: 'cedears',
   },
   {
@@ -1767,6 +1787,11 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'VEA',
+    name: 'Vanguard FTSE Developed Markets ETF',
+    type: 'cedears',
+  },
+  {
     id: 'VIST',
     name: 'Vista Energy',
     type: 'cedears',
@@ -1817,6 +1842,16 @@ export const ICONS: IconType[] = [
     type: 'cedears',
   },
   {
+    id: 'XLB',
+    name: 'The Materials Select Sector SPDR® Trust',
+    type: 'cedears',
+  },
+  {
+    id: 'XLC',
+    name: 'The Communication Services Select Sector SPDR® Fund',
+    type: 'cedears',
+  },
+  {
     id: 'XLE',
     name: 'Energy Sector SPDR ETF',
     type: 'cedears',
@@ -1824,6 +1859,36 @@ export const ICONS: IconType[] = [
   {
     id: 'XLF',
     name: 'Financial Sector SPDR ETF',
+    type: 'cedears',
+  },
+  {
+    id: 'XLI',
+    name: 'The Industrial Select Sector SPDR® Fund',
+    type: 'cedears',
+  },
+  {
+    id: 'XLK',
+    name: 'The Technology Select Sector SPDR® Fund',
+    type: 'cedears',
+  },
+  {
+    id: 'XLP',
+    name: 'The Consumer Staples Select Sector SPDR® Fund',
+    type: 'cedears',
+  },
+  {
+    id: 'XLRE',
+    name: 'The Consumer Discretionary Select Sector SPDR® Fund',
+    type: 'cedears',
+  },
+  {
+    id: 'XLV',
+    name: 'The Health Care Select Sector SPDR® Fund',
+    type: 'cedears',
+  },
+  {
+    id: 'XLY',
+    name: 'The Materials Select Sector SPDR® Trust',
     type: 'cedears',
   },
   {
