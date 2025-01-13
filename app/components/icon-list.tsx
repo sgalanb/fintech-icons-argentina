@@ -23,6 +23,7 @@ import {
 } from '@/app/components/ui/select'
 import { ICONS, IconType } from '@/app/constants'
 import { Check, Copy, Download } from 'lucide-react'
+import Image from 'next/image'
 import { useSearchParams } from 'next/navigation'
 import { useQueryState } from 'nuqs'
 import { Fragment, useState } from 'react'
@@ -112,11 +113,13 @@ const IconTrigger = ({ stock }: { stock: IconType }) => (
     className="flex h-[9.75rem] w-full cursor-pointer items-center justify-center transition-opacity animate-out hover:opacity-80 dark:bg-zinc-800"
   >
     <CardContent className="flex flex-col gap-3 px-3 pt-6">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={`/icons/${stock.type}/${stock.id}.svg`}
+      <Image
+        src={`https://pub-c0032241f78241309bb4e2d7dcc923c7.r2.dev/${stock.type}/${stock.id}.svg`}
         className="h-10 w-10 self-center rounded"
         alt=""
+        width={40}
+        height={40}
+        unoptimized
       />
       <div className="flex h-[2.75rem] flex-col items-center justify-center px-3">
         <span className="line-clamp-1 self-center text-center text-base font-semibold">
@@ -145,10 +148,13 @@ function IconContent({ stock }: { stock: IconType }) {
     <>
       <div className="flex w-full flex-col items-center justify-center gap-6 p-6 md:p-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={`/icons/${stock.type}/${stock.id}.svg`}
+        <Image
+          src={`https://pub-c0032241f78241309bb4e2d7dcc923c7.r2.dev/${stock.type}/${stock.id}.svg`}
           className="my-6 h-32 w-32 self-center rounded"
           alt=""
+          width={128}
+          height={128}
+          unoptimized
         />
         <div className="flex w-full flex-col items-start justify-center">
           <span className="text-left text-xl font-semibold">{stock.name}</span>
