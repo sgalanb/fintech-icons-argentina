@@ -2256,4 +2256,9 @@ export const ICONS: IconType[] = [
     name: 'Takenos',
     type: 'cripto',
   },
+  {
+    id: 'plus',
+    name: 'Plus',
+    type: 'cripto',
+  },
 ]
