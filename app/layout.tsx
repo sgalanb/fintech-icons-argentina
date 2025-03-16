@@ -1,6 +1,7 @@
 import Footer from '@/app/components/footer'
 import { Providers } from '@/app/providers'
 import { Analytics } from '@vercel/analytics/react'
+import { Toolbar } from 'basehub/next-toolbar'
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
@@ -40,6 +41,7 @@ export default function RootLayout({
           <Footer />
         </Providers>
         <Analytics />
+        <Toolbar />
       </body>
     </html>
   )

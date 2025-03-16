@@ -1,5 +1,6 @@
 'use client'
 
+import { IconsItem } from '@/.basehub/schema'
 import { Button } from '@/app/components/ui/button'
 import { Card, CardContent } from '@/app/components/ui/card'
 import {
@@ -21,14 +22,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/app/components/ui/select'
-import { ICONS, IconType } from '@/app/constants'
+import { Icon } from 'basehub/react-svg'
 import { Check, Copy, Download } from 'lucide-react'
-import Image from 'next/image'
 import { useSearchParams } from 'next/navigation'
 import { useQueryState } from 'nuqs'
 import { Fragment, useState } from 'react'
 
-export default function IconList() {
+export default function IconList({ icons }: { icons: IconsItem[] }) {
   const searchParams = useSearchParams()
 
   const [search, setSearch] = useQueryState('search', {
@@ -57,46 +57,48 @@ export default function IconList() {
           <SelectContent>
             <SelectGroup>
               <SelectItem value="all">Todos los iconos</SelectItem>
-              <SelectItem value="acciones">Acciones</SelectItem>
-              <SelectItem value="cedears">CEDEARs</SelectItem>
-              <SelectItem value="bancos-apps">Bancos y Apps</SelectItem>
-              <SelectItem value="gerentes-fci">Gerentes de FCI</SelectItem>
-              <SelectItem value="cripto">Cripto</SelectItem>
-              <SelectItem value="monedas">Monedas</SelectItem>
+              <SelectItem value="Acciones">Acciones</SelectItem>
+              <SelectItem value="CEDEARs">CEDEARs</SelectItem>
+              <SelectItem value="Bancos y Billeteras">
+                Bancos y Billeteras
+              </SelectItem>
+              <SelectItem value="Gerentes de FCI">Gerentes de FCI</SelectItem>
+              <SelectItem value="Monedas">Monedas</SelectItem>
             </SelectGroup>
           </SelectContent>
         </Select>
       </div>
 
       <div className="grid w-full grid-cols-1 gap-3 xxs:grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5">
-        {ICONS.filter(
-          (stock) =>
-            stock.name.toLowerCase().includes(search.toLowerCase()) ||
-            stock.id.toLowerCase().includes(search.toLowerCase())
-        )
+        {icons
+          .filter(
+            (icon) =>
+              icon._title.toLowerCase().includes(search.toLowerCase()) ||
+              (icon.id && icon?.id.toLowerCase().includes(search.toLowerCase()))
+          )
           .filter((stock) =>
             selectedType === 'all' ? true : stock.type === selectedType
           )
-          .sort((a, b) => a.name.localeCompare(b.name))
-          .map((stock) => (
-            <Fragment key={stock.id}>
+          .sort((a, b) => a._title.localeCompare(b._title))
+          .map((icon) => (
+            <Fragment key={icon.id}>
               <div className="hidden md:block">
                 <Dialog>
                   <DialogTrigger className="w-full">
-                    <IconTrigger stock={stock} />
+                    <IconTrigger icon={icon} />
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[425px]">
-                    <IconContent stock={stock} />
+                    <IconContent icon={icon} />
                   </DialogContent>
                 </Dialog>
               </div>
               <div className="block md:hidden">
                 <Drawer>
                   <DrawerTrigger className="w-full">
-                    <IconTrigger stock={stock} />
+                    <IconTrigger icon={icon} />
                   </DrawerTrigger>
                   <DrawerContent>
-                    <IconContent stock={stock} />
+                    <IconContent icon={icon} />
                   </DrawerContent>
                 </Drawer>
               </div>
@@ -107,33 +109,41 @@ export default function IconList() {
   )
 }
 
-const IconTrigger = ({ stock }: { stock: IconType }) => (
+const IconTrigger = ({ icon }: { icon: IconsItem }) => (
   <Card
-    key={stock.id}
+    key={icon.id}
     className="flex h-[9.75rem] w-full cursor-pointer items-center justify-center transition-opacity animate-out hover:opacity-80 dark:bg-zinc-800"
   >
     <CardContent className="flex flex-col gap-3 px-3 pt-6">
-      <Image
-        src={`https://pub-c0032241f78241309bb4e2d7dcc923c7.r2.dev/${stock.type}/${stock.id}.svg`}
-        className="h-10 w-10 self-center rounded"
-        alt=""
-        width={40}
-        height={40}
-        unoptimized
-      />
+      <div className="flex h-10 w-10 items-center justify-center self-center overflow-hidden rounded">
+        <Icon
+          content={icon.source || ''}
+          components={{
+            svg: (props) => (
+              <svg
+                {...props}
+                style={{
+                  width: 40,
+                  height: 40,
+                }}
+              />
+            ),
+          }}
+        />
+      </div>
       <div className="flex h-[2.75rem] flex-col items-center justify-center px-3">
         <span className="line-clamp-1 self-center text-center text-base font-semibold">
-          {stock.type === 'acciones' ||
-          stock.type === 'cedears' ||
-          stock.type === 'monedas'
-            ? stock.id
-            : stock.name}
+          {icon.type === 'Acciones' ||
+          icon.type === 'CEDEARs' ||
+          icon.type === 'Monedas'
+            ? icon.id
+            : icon._title}
         </span>
         <span className="line-clamp-1 text-center text-sm text-gray-500">
-          {stock.type === 'acciones' ||
-          stock.type === 'cedears' ||
-          stock.type === 'monedas'
-            ? stock.name
+          {icon.type === 'Acciones' ||
+          icon.type === 'CEDEARs' ||
+          icon.type === 'Monedas'
+            ? icon._title
             : ''}
         </span>
       </div>
@@ -141,39 +151,47 @@ const IconTrigger = ({ stock }: { stock: IconType }) => (
   </Card>
 )
 
-function IconContent({ stock }: { stock: IconType }) {
+function IconContent({ icon }: { icon: IconsItem }) {
   const [isCopied, setIsCopied] = useState(false)
 
   return (
     <>
       <div className="flex w-full flex-col items-center justify-center gap-6 p-6 md:p-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <Image
-          src={`https://pub-c0032241f78241309bb4e2d7dcc923c7.r2.dev/${stock.type}/${stock.id}.svg`}
-          className="my-6 h-32 w-32 self-center rounded"
-          alt=""
-          width={128}
-          height={128}
-          unoptimized
-        />
+        <div className="flex h-40 w-40 items-center justify-center overflow-hidden rounded">
+          <Icon
+            content={icon.source || ''}
+            components={{
+              svg: (props) => (
+                <svg
+                  {...props}
+                  style={{
+                    width: 160,
+                    height: 160,
+                  }}
+                />
+              ),
+            }}
+          />
+        </div>
         <div className="flex w-full flex-col items-start justify-center">
-          <span className="text-left text-xl font-semibold">{stock.name}</span>
-          {stock.type === 'acciones' ||
-          stock.type === 'cedears' ||
-          stock.type === 'monedas' ? (
+          <span className="text-left text-xl font-semibold">{icon._title}</span>
+          {icon.type === 'Acciones' ||
+          icon.type === 'CEDEARs' ||
+          icon.type === 'Monedas' ? (
             <span className="line-clamp-1 text-left text-lg text-gray-500">
-              {stock.id} -{' '}
-              {stock.type === 'acciones'
+              {icon.id} -{' '}
+              {icon.type === 'Acciones'
                 ? 'Acción'
-                : stock.type === 'cedears'
+                : icon.type === 'CEDEARs'
                   ? 'CEDEAR'
                   : 'Moneda'}
             </span>
           ) : (
             <span className="line-clamp-1 text-left text-lg text-gray-500">
-              {stock.type === 'gerentes-fci'
+              {icon.type === 'Gerentes de FCI'
                 ? 'Gerente de FCI'
-                : stock.type === 'bancos-apps'
+                : icon.type === 'Bancos y Billeteras'
                   ? 'Banco/App'
                   : 'Cripto'}
             </span>
@@ -184,7 +202,7 @@ function IconContent({ stock }: { stock: IconType }) {
             variant="secondary"
             className="w-full"
             onClick={() => {
-              downloadSvg(`/icons/${stock.type}/${stock.id}.svg`)
+              downloadSvg(icon.source || '', icon.id || '')
             }}
           >
             <Download size={16} className="mr-2" />
@@ -193,7 +211,7 @@ function IconContent({ stock }: { stock: IconType }) {
           <Button
             className="w-full"
             onClick={() => {
-              copyToClipboard(`/icons/${stock.type}/${stock.id}.svg`)
+              copyToClipboard(icon.source || '')
               setIsCopied(true)
               setTimeout(() => setIsCopied(false), 1000)
             }}
@@ -213,22 +231,26 @@ function IconContent({ stock }: { stock: IconType }) {
   )
 }
 
-const copyToClipboard = async (svgUrl: string) => {
+const copyToClipboard = async (source: string) => {
   try {
-    const response = await fetch(svgUrl)
-    const svgText = await response.text()
-    await navigator.clipboard.writeText(svgText)
+    await navigator.clipboard.writeText(source)
     console.log('SVG copied to clipboard!')
   } catch (error) {
     console.error('Error copying SVG to clipboard:', error)
   }
 }
 
-const downloadSvg = (svgUrl: string) => {
+const downloadSvg = (source: string, filename: string = 'icon.svg') => {
+  const blob = new Blob([source], { type: 'image/svg+xml' })
+  const url = window.URL.createObjectURL(blob)
+
   const link = document.createElement('a')
-  link.href = svgUrl
-  link.download = `${svgUrl.split('/').pop()}`
+  link.href = url
+  link.download = filename
+
   document.body.appendChild(link)
   link.click()
   document.body.removeChild(link)
+
+  window.URL.revokeObjectURL(url)
 }
